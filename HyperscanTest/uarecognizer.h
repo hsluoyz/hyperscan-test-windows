@@ -65,20 +65,6 @@ void releasePattern() {
     database = NULL;
 }
 
-// void initAllPatterns() {
-//     for (int i = 0; i < kBrowserOther; i++) {
-//         initPattern(regexBrowserArray[i]);
-//     }
-//
-//     for (int i = 0; i < kOsOther; i++) {
-//         initPattern(regexOsArray[i]);
-//     }
-//
-//     for (int i = 0; i < kDeviceOther; i++) {
-//         initPattern(regexDeviceArray[i]);
-//     }
-// }
-
 static int eventHandler(unsigned int id, unsigned long long from,
     unsigned long long to, unsigned int flags, void* ctx) {
     gIsMatched = true;
