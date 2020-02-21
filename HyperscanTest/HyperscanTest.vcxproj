@@ -46,6 +46,7 @@
   </PropertyGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
+    <ClInclude Include="uarecognizer.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp" />
